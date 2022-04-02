@@ -27,7 +27,7 @@ spec:
 module "tools" {
   tags = {
     CloudProviders = "AWS - GCP "
-    IaaS           = "Terraform, Ansible"
+    IaaC           = "Terraform, Ansible"
     Workflows      = "GitActions, Gitlab, GitOps"
     Containers     = "Docker , Kubernetes"
     S.O            = "Debian, CentOS, WindowsServer"
