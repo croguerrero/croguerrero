@@ -12,10 +12,10 @@ spec:
    
     - 
       type: Homepage
-      where: https://portfoliio.slopeit.site
+      where: https://portfolio.slopeit.site
     - 
-      type: Company
-      where: devo
+      type: Own-Company
+      where: httos://www.slopeit.site
     
   favorites:
     number: 17
