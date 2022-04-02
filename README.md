@@ -38,6 +38,7 @@ module "tools" {
 
 ```
 ```bash
+#!/bin/bash
 Deploy your own infrastructure as simple as you want !!!!
 ```
 [![Twitter: croguerrero](https://img.shields.io/twitter/follow/croguerrero?style=social)](https://twitter.com/croguerrero)
