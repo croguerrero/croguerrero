@@ -29,12 +29,17 @@ spec:
 ```terraform
 module "tools" {
   tags = {
-    Environment = "training"
-    GithubRepo  = "terraform-aws-eks"
-    GithubOrg   = "terraform-aws-modules"
+    CloudProviders = "AWS - GCP "
+    IaaS           = "Terraform, Ansible"
+    Workflows      = "GitActions, Gitlab, GitOps"
+    Containers     = "Docker , Kubernetes"
+    S.O            = "Debian, CentOS, WindowsServer"
+    Languajes      = "Python , Bash"
+    Networking     = "Cisco, HP, Ubiquiti, Fortinet"
+     
   }
 
 ```
 ```bash
-
+Deploy your own infrastructure as simple as you want !!!!
 ```
