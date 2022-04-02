@@ -4,7 +4,7 @@
 apiVersion: v36
 kind: Human
 metadata:
-  name: Christian Guerrero
+  name: Marcelo Guerrero
 spec:
   purpose: Learn DevOps and Cloud Computing
   sponsorship: my wife.
