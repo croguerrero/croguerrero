@@ -1,18 +1,27 @@
-- apiVersion: v36
+# Oh hi 👋
+
+```yaml
+apiVersion: v36
 kind: Human
 metadata:
-  name: Christian GUerrero
+  name: Christian Guerrero
 spec:
   purpose: Learn DevOps and Cloud Computing
-  sponsorship:
+  sponsorship: my wife.
   locations:
-    - type: Homepage
-      where: https://portfolio.slopeit.site
    
+    - 
+      type: Homepage
+      where: https://portfoliio.slopeit.site
+    - 
+      type: Company
+      where: devo
+    
   favorites:
     number: 17
     animal: 🐶
-    sport: runing 
+    sport: running
     food: 🥩
+```
 
 
