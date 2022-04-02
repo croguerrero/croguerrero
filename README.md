@@ -14,7 +14,7 @@ spec:
       where: https://portfolio.slopeit.site
     - 
       type: Own-Company
-      where: httos://www.slopeit.site
+      where: https://www.slopeit.site
     
   favorites:
     number: 17
