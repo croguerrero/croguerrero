@@ -8,8 +8,7 @@ metadata:
 spec:
   purpose: Learn DevOps and Cloud Computing
   sponsorship: my wife.
-  locations:
-   
+  locations:   
     - 
       type: Homepage
       where: https://portfolio.slopeit.site
@@ -24,4 +23,5 @@ spec:
     food: 🥩
 ```
 
-
+[![Twitter: croguerrero](https://img.shields.io/twitter/follow/croguerrero?style=social)](https://twitter.com/croguerrero)
+[![Linkedin: Christian Guerrero](https://img.shields.io/badge/-thaianebraga-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/marcelo-guerrero-760413125/)](https://www.linkedin.com/in/marcelo-guerrero/)
