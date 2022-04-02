@@ -32,7 +32,7 @@ module "tools" {
     Containers     = "Docker , Kubernetes"
     S.O            = "Debian, CentOS, WindowsServer"
     Languajes      = "Python , Bash"
-    Networking     = "Cisco, HP, Ubiquiti, Fortinet"
+    Networking     = "Cisco, HP, Ubiquiti, Fortinet, VMware"
      
   }
 
