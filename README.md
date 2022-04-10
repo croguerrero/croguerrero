@@ -11,10 +11,10 @@ spec:
   locations:   
     - 
       type: Homepage
-      where: https://portfolio.slopeit.site
+      where: [https://portfolio.slopeit.site]
     - 
       type: Own-Company
-      where: https://www.slopeit.site
+      where: [https://www.slopeit.site]
     
   favorites:
     number: 17
