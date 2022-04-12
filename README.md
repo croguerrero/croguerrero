@@ -28,7 +28,7 @@ provider "slopeit" {}
 
 resource "croguerrero_instance" "vm" {
   ami           = "ami-b6e499ce"
-  instance_type = "t3000"
+  instance_type = "T-800"
   
 module "tools" {
   tags = {
