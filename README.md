@@ -45,10 +45,15 @@ module "tools" {
 ```
 ```mermaid
 flowchart LR
-    Source --> Build
-    Build  --> Staging
-    Staging --> Test
+    Plan --> Code
+    Code  --> Build
+    Build --> Test
     Test --> Deploy
+    Deploy --> Operate
+    Operate --> Monitor
+    Monitor --> Code
+    
+    
 ```
 ```bash
 #!/bin/bash
