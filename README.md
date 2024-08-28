@@ -1,12 +1,12 @@
 # Hello There 👋
 
 ```yaml
-apiVersion: v38
+apiVersion: v39
 kind: Human
 metadata:
   name: Marcelo Guerrero
 spec:
-  purpose: Learn DevOps and Cloud Computing
+  purpose: DevOps and Cloud Computing
   sponsorship: my wife.
   locations:   
     - 
@@ -41,6 +41,12 @@ module "tools" {
     Networking     = "Cisco, HP, Ubiquiti, Fortinet, VMware"
      
   }
+module "certifications"
+    {
+      GCP Devops Profesional
+      GCP Security Profesional
+      GCP Associate 
+    }
 
 ```
 ```mermaid
