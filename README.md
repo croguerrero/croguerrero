@@ -5,7 +5,7 @@ apiVersion: v1
 kind: DevOpsEngineer
 metadata:
   name: Marcelo "Christian" Guerrero
-  role: Cloud  & DevOps
+  role: Cloud & DevOps
 spec:
   focus:
     - Google Cloud Platform (GCP)
@@ -15,9 +15,9 @@ spec:
   sponsorship: My Wife & Son 👶
   locations:
     - type: Portfolio
-      url: [https://portfolio.slopeit.com](https://portfolio.slopeit.com)
+      url: "https://portfolio.slopeit.com"
     - type: Company
-      url: [https://www.slopeit.com](https://www.slopeit.com)
+      url: "https://www.slopeit.com"
 
   favorites:
     manga: Dragon Ball 🐉
@@ -25,6 +25,9 @@ spec:
     sport: Running 🏃
     food: 🥩
 
+```
+
+```hcl
 # Infrastructure as Code - Personal Stack
 
 provider "google" {
@@ -70,7 +73,8 @@ locals {
 }
 
 ```
-``` flowchart LR
+```mermaid
+    flowchart LR
     subgraph CI/CD Pipeline
     Plan --> Code
     Code --> Build
