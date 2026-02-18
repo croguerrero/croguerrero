@@ -1,69 +1,103 @@
-# Hello There 👋
+### Hello There 👋 I'm Christian
 
 ```yaml
-apiVersion: v39
-kind: Human
+apiVersion: v1
+kind: DevOpsEngineer
 metadata:
-  name: Marcelo Guerrero
+  name: Marcelo "Christian" Guerrero
+  role: Cloud  & DevOps
 spec:
-  purpose: DevOps and Cloud Computing
-  sponsorship: my wife.
-  locations:   
-    - 
-      type: Homepage
-      where: [https://portfolio.slopeit.com]
-    - 
-      type: Own-Company
-      where: [https://www.slopeit.com]
-    
+  focus:
+    - Google Cloud Platform (GCP)
+    - AWS
+    - MLOps & Automation
+    - Algorithmic Trading (Gold/Nasdaq)
+  sponsorship: My Wife & Son 👶
+  locations:
+    - type: Portfolio
+      url: [https://portfolio.slopeit.com](https://portfolio.slopeit.com)
+    - type: Company
+      url: [https://www.slopeit.com](https://www.slopeit.com)
+
   favorites:
-    number: 17
-    animal: 🐶
-    sport: running
+    manga: Dragon Ball 🐉
+    music: Trance 🎵
+    sport: Running 🏃
     food: 🥩
-```
 
-```terraform
-provider "slopeit" {}
+# Infrastructure as Code - Personal Stack
 
-resource "croguerrero_instance" "vm" {
-  ami           = "ami-b6e499ce"
-  instance_type = "T-800"
-  
-module "tools" {
+provider "google" {
+  region  = "us-central1"
+  project = "slopeit-infrastructure"
+}
+
+resource "christian_guerrero" "engineer" {
+  ami           = "ami-devops-v2026"
+  instance_type = "T-800-High-Performance" # Powered by high-end hardware
+
   tags = {
-    CloudProviders = "AWS - GCP "
+    Name           = "Christian Guerrero"
+    CloudProviders = "GCP (Expert) | AWS"
     IaaC           = "Terraform, Ansible"
-    Workflows      = "GitActions, Gitlab, GitOps"
-    Containers     = "Docker , Kubernetes"
-    S.O            = "Debian, CentOS, WindowsServer"
-    Languajes      = "Python , Bash"
-    Networking     = "Cisco, HP, Ubiquiti, Fortinet, VMware"
-     
+    Containers     = "Docker, Kubernetes"
+    CI_CD          = "GitHub Actions, GitLab CI, ArgoCD"
+    OS             = "Debian, Windows Server"
+    Languages      = "Python, Bash, English (In Progress)"
   }
-module "certifications"
-    {
-      GCP Devops Profesional
-      GCP Security Profesional
-      GCP Associate 
-    }
+}
 
-```
-```mermaid
-flowchart LR
+# Active Projects & Goals
+module "current_status" {
+  source = "./projects"
+
+  objective       = "Financial Freedom"
+  active_learning = ["MLOps", "English Proficiency"]
+
+  project "trading_bot" {
+    market   = ["NASDAQ", "Gold"]
+    strategy = "Swing Trading"
+    status   = "In Development 📈"
+  }
+}
+
+locals {
+  certifications = [
+    "GCP DevOps Professional",
+    "GCP Security Professional",
+    "GCP Associate Cloud Engineer"
+  ]
+}
+```flowchart LR
+    subgraph CI/CD Pipeline
     Plan --> Code
-    Code  --> Build
+    Code --> Build
     Build --> Test
     Test --> Deploy
+    end
+
+    subgraph Observability
     Deploy --> Operate
     Operate --> Monitor
-    Monitor --> Code
+    Monitor -->|Feedback Loop| Plan
+    end
+
+    style Deploy fill:#34A853,stroke:#333,stroke-width:2px
+    style Monitor fill:#4285F4,stroke:#333,stroke-width:2px
     
     
 ```
+
 ```bash
 #!/bin/bash
-Deploy your own infrastructure as simple as you want !!!!
+# Deploy your own infrastructure as simple as you want!
+
+TARGET="Automation"
+echo "🚀 Initializing DevOps sequence..."
+
+if [ "$1" == "--contact" ]; then
+    echo "Let's build something great together."
+fi
 ```
 [![Twitter: croguerrero](https://img.shields.io/twitter/follow/croguerrero?style=social)](https://twitter.com/croguerrero)
 [![Linkedin: Christian Guerrero](https://img.shields.io/badge/ChristianGuerrero-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/marcelo-guerrero-760413125/)](https://www.linkedin.com/in/marcelo-guerrero-760413125/)
