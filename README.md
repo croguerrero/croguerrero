@@ -68,7 +68,9 @@ locals {
     "GCP Associate Cloud Engineer"
   ]
 }
-```flowchart LR
+
+```
+``` flowchart LR
     subgraph CI/CD Pipeline
     Plan --> Code
     Code --> Build
@@ -99,5 +101,5 @@ if [ "$1" == "--contact" ]; then
     echo "Let's build something great together."
 fi
 ```
-[![Twitter: croguerrero](https://img.shields.io/twitter/follow/croguerrero?style=social)](https://twitter.com/croguerrero)
+
 [![Linkedin: Christian Guerrero](https://img.shields.io/badge/ChristianGuerrero-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/marcelo-guerrero-760413125/)](https://www.linkedin.com/in/marcelo-guerrero-760413125/)
