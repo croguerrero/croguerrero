@@ -5,7 +5,7 @@ apiVersion: v1
 kind: DevOpsEngineer
 metadata:
   name: Marcelo "Christian" Guerrero
-  role: Cloud & DevOps
+  role: Cloud & DevSecOps
 spec:
   focus:
     - Google Cloud Platform (GCP)
